@@ -1,8 +1,8 @@
-package com.example.modelapiclass;
+package com.example.modelapiclass.model;
 
 import com.google.gson.annotations.SerializedName;
 
-public class ShopMoney {
+public class PresentmentMoney {
 
     public String amount;
 

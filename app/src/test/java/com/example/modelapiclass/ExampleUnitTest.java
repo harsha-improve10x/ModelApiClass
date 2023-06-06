@@ -4,6 +4,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
+import com.example.modelapiclass.model.Shop;
 import com.example.modelapiclass.network.ModelApi;
 import com.example.modelapiclass.network.ModelApiService;
 import com.google.gson.Gson;
@@ -32,5 +33,6 @@ public class ExampleUnitTest {
         assertNotNull(shops);
         assertFalse(shops.isEmpty());
         System.out.println(new Gson().toJson(shops));
+        assertEquals("1.23", shops.get(0).lineItems.get(0).taxLines.get(1).price);
     }
 }

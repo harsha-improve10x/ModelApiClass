@@ -1,4 +1,4 @@
-package com.example.modelapiclass;
+package com.example.modelapiclass.model;
 
 import com.google.gson.annotations.SerializedName;
 
@@ -107,16 +107,13 @@ public class Shop {
     @SerializedName("location_id")
     public String locationId;
 
-    @SerializedName("name")
     public String name;
 
-    @SerializedName("note")
     public String note;
 
     @SerializedName("note_attributes")
     public ArrayList<String> noteAttributes;
 
-    @SerializedName("number")
     public Integer number;
 
     @SerializedName("order_number")
@@ -140,7 +137,6 @@ public class Shop {
     @SerializedName("processing_method")
     public String processingMethod;
 
-    @SerializedName("reference")
     public String reference;
 
     @SerializedName("referring_site")
@@ -161,16 +157,13 @@ public class Shop {
    @SerializedName("subtotal_price_set")
    public Money subTotalPriceSet;
 
-   @SerializedName("tags")
    public String tags;
 
    @SerializedName("taxes_included")
    public Boolean taxesIncluded;
 
-   @SerializedName("test")
    public Boolean test;
 
-   @SerializedName("token")
    public String token;
 
    @SerializedName("total_discounts")
@@ -230,7 +223,6 @@ public class Shop {
    @SerializedName("payment_terms")
    public String paymentTerms;
 
-   @SerializedName("refunds")
    public ArrayList<String> refunds;
 
 }

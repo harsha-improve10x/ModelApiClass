@@ -1,13 +1,11 @@
 package com.example.modelapiclass.network;
 
-import com.example.modelapiclass.ClientDetails;
-import com.example.modelapiclass.Shop;
+import com.example.modelapiclass.model.Shop;
 
 import java.util.List;
 
 import retrofit2.Call;
 import retrofit2.http.GET;
-import retrofit2.http.Path;
 
 public interface ModelApiService {
 

@@ -1,12 +1,14 @@
-package com.example.modelapiclass;
+package com.example.modelapiclass.model;
 
+import com.example.modelapiclass.model.Money;
+import com.example.modelapiclass.model.OriginLocation;
+import com.example.modelapiclass.model.TaxLines;
 import com.google.gson.annotations.SerializedName;
 
 import java.util.ArrayList;
 
 public class LineItems {
 
-    @SerializedName("id")
     public Integer id;
 
     @SerializedName("admin_graphql_api_id")
@@ -24,10 +26,8 @@ public class LineItems {
     @SerializedName("gift_card")
     public Boolean giftCard;
 
-    @SerializedName("grams")
     public Integer grams;
 
-    @SerializedName("name")
     public String name;
 
     @SerializedName("origin_location")
